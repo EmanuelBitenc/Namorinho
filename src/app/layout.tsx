@@ -16,6 +16,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Namorinho - Mensagens de Amor",
   description: "Envie mensagens românticas para pessoas especiais",
+
+  icons: {
+    icon: "/coracao.ico",
+  },
 };
 
 export default function RootLayout({
