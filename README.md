@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Namorinho - Plataforma de Mensagens de Amor
 
-## Getting Started
+## Descrição
 
-First, run the development server:
+Namorinho é uma aplicação web criada para expressar sentimentos através de mensagens personalizadas de amor. Com uma interface intuitiva e elegante, os usuários podem criar, personalizar e compartilhar mensagens românticas com pessoas especiais.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Criação de mensagens personalizadas de amor
+- Personalização da aparência (cores de fundo)
+- Geração de links exclusivos para compartilhamento
+- Visualização de mensagens com animações elegantes
+- Simulação de pagamento para envio de mensagens
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Frontend**: Next.js, React, TypeScript, TailwindCSS
+- **Arquitetura**: Domain-Driven Design (DDD), Clean Architecture e princípios SOLID
 
-## Learn More
+## Estrutura do Projeto
 
-To learn more about Next.js, take a look at the following resources:
+O projeto segue uma arquitetura limpa e organizada:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Domínio**: Entidades e interfaces de repositório
+- **Aplicação**: Casos de uso e regras de negócio
+- **Infraestrutura**: Implementações de repositórios
+- **Interfaces**: Controllers e factories
+- **Apresentação**: Componentes e páginas da interface
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Instalação e Uso
 
-## Deploy on Vercel
+1. Clone o repositório
+2. Instale as dependências: `npm install`
+3. Execute o projeto em desenvolvimento: `npm run dev`
+4. Acesse em seu navegador: `http://localhost:3000`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contribuição
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests.
+
+## Licença
+
+Este projeto está sob a licença [inserir tipo de licença].
