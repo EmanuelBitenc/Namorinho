@@ -1,5 +1,7 @@
 # Namorinho - Plataforma de Mensagens de Amor
 
+Funcionando em https://namorinho.vercel.app/
+
 ## Descrição
 
 Namorinho é uma aplicação web criada para expressar sentimentos através de mensagens personalizadas de amor. Com uma interface intuitiva e elegante, os usuários podem criar, personalizar e compartilhar mensagens românticas com pessoas especiais.
